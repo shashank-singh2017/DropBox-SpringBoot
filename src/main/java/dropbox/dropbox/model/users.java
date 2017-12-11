@@ -5,6 +5,14 @@ import org.springframework.security.crypto.bcrypt.*;
 
 @Document
 public class users {
+    public users(){}
+    public users(String firstname,String lastname, String password,String email){
+        super();
+        this.email=email;
+        this.firstname=firstname;
+        this.lastname = lastname;
+        this.password=password;
+    }
 
     public String getFirstname() {
         return firstname;

@@ -16,6 +16,7 @@ class Welcome extends Component {
         //images: PropTypes.array.isRequired
     };
 
+
     listFiles = () => {
         API.getImages()
             .then((data) => {

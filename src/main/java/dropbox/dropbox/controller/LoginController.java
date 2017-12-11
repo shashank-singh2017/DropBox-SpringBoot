@@ -12,7 +12,9 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.List;
 
 @RestController
@@ -52,11 +54,14 @@ public class LoginController {
     }
 
 
-    @RequestMapping(method= RequestMethod.POST , value="/logout")
-    public ResponseEntity<Boolean> logout(HttpSession session) throws JSONException {
-        System.out.print("session value: "+session.getAttribute("name"));
+    @RequestMapping(method= RequestMethod.GET , value="/doLogout")
+    public ResponseEntity<Boolean> doLogout(HttpSession session) throws JSONException {
+        System.out.print("session value: "+session.getAttribute("sessionuser"));
         session.invalidate();
-        return new ResponseEntity<Boolean>(true,HttpStatus.OK);
+        return new ResponseEntity<Boolean>(true,HttpStatus.CREATED);
     }
+
+
+
 }
 

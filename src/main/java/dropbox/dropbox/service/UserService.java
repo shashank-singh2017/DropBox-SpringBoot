@@ -29,7 +29,7 @@ public class UserService {
     ResponseModel model=new ResponseModel();
 
     public List<users> findUsers(){
-        return userRepository.findAllByEmail("hkbhatia");
+        return userRepository.findAllByEmail("mohit@gmail.com");
     }
 
     public ResponseModel addUser(users users) throws IOException {

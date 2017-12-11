@@ -155,12 +155,12 @@ class FileList extends Component {
     };
 
     renderUserMessage(filename){
-    var  path = '/Users/shashanksingh/Downloads/DROP/nodelogin/public/'+filename;
+    //var  path = '/Users/shashanksingh/Downloads/DROP/nodelogin/public/'+filename;
 
-    /* var arr = filename.split("/");
+     var arr = filename.split("/");
       var lastitem = arr[arr.length-1];
-*/
-      /* if(lastitem.includes('.')) {
+
+       if(lastitem.includes('.')) {
           if(lastitem.includes('.css')) {
             return (
               <img src={cssIcon}/>
@@ -213,7 +213,7 @@ class FileList extends Component {
         <img src={folderIcon}/>
       );
     }
-} */
+}
 
     }
 
@@ -299,7 +299,7 @@ class FileList extends Component {
                                     <br/>
                                     <a className="myStyle-main3" href={'/Users/shashanksingh/Desktop/Udemy/' + tile}
                                        alt={'myimage'}>
-                                         { this.renderUserMessage(tile.img) }<span>    </span>{tile}</a>
+                                         { this.renderUserMessage(tile) }<span>    </span>{tile}</a>
                                     {
                                         tile.starred
                                             ? <svg onClick={() => {
@@ -344,14 +344,14 @@ class FileList extends Component {
                                                 </span>
 
                                             <ul className="dropdown-menu" style={{width:70,fontFamily:"GT Walsheim"}}>
-                                                <li className={'ddleft'} style={{float:"left"}}><a href={'http://localhost:3001/' + tile.img} style={{fontSize:14}} download> Download </a>
+                                                <li className={'ddleft'} style={{float:"left"}}><a href={'http://localhost:8080/' + tile} style={{fontSize:14}} download> Download </a>
                                                 </li>
                                                 <li className={'ddleft'} style={{float:"left"}}><a style={{fontSize:14}} onClick={() => {
-                                                    this.handleDelete({"path_to_delete": tile.img})
+                                                    this.handleDelete({"path_to_delete": tile})
                                                 }}>Delete...</a>
                                                 </li>
                                                 <li className={'ddleft'} style={{float:"left"}}><a style={{fontSize:14}} onClick={() => {
-                                                    this.handleDelete({"path_to_delete": tile.img})
+                                                    this.handleDelete({"path_to_delete": tile})
                                                 }}>Share</a>
                                                 </li>
 

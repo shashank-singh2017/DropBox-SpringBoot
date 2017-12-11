@@ -165,5 +165,17 @@ public class FileController {
             return new ResponseEntity(files, HttpStatus.CREATED);
         }
     }
+
+    @RequestMapping(method=RequestMethod.POST, value="/deleteFile")
+    public ResponseEntity<files> deleteFile(@RequestBody String path, HttpSession session) throws IOException {
+
+        File file = new File(path);
+        file.delete();
+
+        File[] files=fileService.findFiles((String)session.getAttribute("sessionuser"));
+        model.setResArray(files);
+        return new ResponseEntity(model,HttpStatus.CREATED);
+
+    }
 }
 

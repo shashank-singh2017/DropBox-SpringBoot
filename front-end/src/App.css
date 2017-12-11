@@ -1,0 +1,801 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+.mainpart{
+margin-top: 40px;
+}
+
+.navSty{
+
+    background-color: #FAFAFA;
+    padding-bottom: 725px;
+    text-align:left
+}
+.navText{
+    padding-top:30px;
+    padding-left:10px;
+    color: #4779DC;
+}
+
+.navText2{
+    padding-top: 10px;
+    padding-left:10px;
+    color: #4779DC;
+}
+.navButton{
+    padding-left: 2px;
+    padding-right:2px;
+    padding-top:2px;
+    padding-bottom:2px;
+    background-color:#2E9AFE
+}
+
+.navuploadButton{
+
+    text-align:center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:#205FDE;
+    font-size: 14px;
+}
+.myStyle-main{
+
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+.myStyle-main2{
+
+    text-align: justify;
+    font-size: 12px;
+    margin-left: 50px;
+
+}
+
+.myStyle-main3{
+    text-align: left;
+    float: left;
+    font-size: 12px;
+    margin-left: 50px;
+    color:#3d464d
+}
+.myStyle-main4{
+    padding-left: 50px;
+}
+.imageGridStyle{
+    text-align: left;
+    height:45px;
+}
+
+.logout{
+    margin-top: 35px;
+    font-size: 14px;
+    margin-left: 50px;
+    background-color:#205FDE
+
+}
+
+.navImageStyle{
+    text-align:left;
+    width: 45px;
+    padding-top: 35px;
+    padding-left:8px;
+    float: left
+}
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+a {
+    color: #2895F1;
+    text-decoration: none;
+    float: right;
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+.login-register-switch-link {
+
+    color: #2895F1;
+    text-decoration: none;
+    float: right;
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+.maestro-nav__products {
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.maestro-nav__active-product {
+    color: #0070E0;
+}
+.ue-effect-container {
+    position: relative;
+}
+.maestro-nav__logo {
+    width: 40px;
+    height: 40px;
+    fill: #0070E0;
+}
+.maestro-nav__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100%;
+    min-width: 240px;
+    min-height:800px;
+    background: #F7F9FA;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+    text-align: center;
+    padding-left: 50px;
+}
+.maestro-nav__container-right{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100%;
+    min-width: 240px;
+    min-height:800px;
+    background: #F7F9FA;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+    text-align: center;
+    padding-left: 10px;
+}
+
+.maestro-nav__product-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 40px;
+}
+
+.maestro-nav__product {
+    font-size: 16px;
+    line-height: 16px;
+    color: #637282;
+
+    -ms-flex: 1;
+    text-decoration: none;
+}
+.main-part{
+
+    text-align: center;
+    float: right;
+
+}
+.maestro-nav__home-button {
+    border: none;
+    background: transparent;
+    color: #2f3842;
+    display: inline-block;
+    position: relative;
+    margin-left: -8px;
+    margin-bottom: 24px;
+    padding: 0 0 0 8px;
+    cursor: pointer;
+}
+.maestro-nav__panel {
+    position: absolute;
+    top: 0;
+    bottom: 80px;
+
+}
+
+.maestro-nav__panel-right {
+    position: absolute;
+    top: 0;
+    bottom: 80px;
+
+}
+.dropdown-menu {
+  widh:auto;
+  text-align: center;
+}
+
+.dropdown-li {
+  text-align: center;
+  margin-left: 0px;
+}
+
+
+
+.checkbox_label{
+
+    float: left;
+    margin-left: 6px;
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: 600;
+    color: #3d464d;
+}
+
+.dropbox-logo__glyph {
+    z-index: 4;
+    vertical-align: middle;
+    height: 46px;
+    width: 46px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    display: inline-block;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+    padding-top: 5px;
+}
+
+.dropbox-2015 .container {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    max-width: 1200px;
+    min-width: 600px;
+    position: relative;
+}
+.page-header {
+    position: fixed;
+    z-index: 5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    white-space: nowrap;
+    left: 240px;
+    width: calc(100% - (200px + 2 * 40px));
+    min-width: 744px;
+    background: #fff;
+    padding: 40px 0 0 40px;
+    height: 56px;
+}
+.dropbox-logo__type {
+    z-index: 3;
+    width: 120px;
+    height: 34px;
+    vertical-align: middle;
+    display: inline-block;
+    background: no-repeat center center;
+    position: relative;
+    top: 2px;
+    margin-left: 8px;
+    background-size: 120px auto;
+    -webkit-transition: all 300ms ease-in-out 0s;
+    transition: all 300ms ease-in-out 0s;
+
+}
+
+.login-register-header {
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+    color: #3d464d;
+}
+
+.Sign-in-button{
+    float: right;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.mast-head {
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    height: 76px;
+    z-index: 99;
+    font-size: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #d0d4d9;
+
+    box-shadow: 0px 1px 1px #d0d4d9;
+}
+
+
+
+
+.hr-label {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+}
+
+checkbox label {
+    cursor: pointer;
+    margin-left: 7px;
+    vertical-align: middle;
+}
+.dropbox-logo {
+    margin: 13px auto;
+
+}
+
+.mast-head {
+    line-height: 26px
+}
+
+#login-or-register-page-content {
+    padding-top: 126px;
+    text-align: center;
+}
+
+#login-or-register-page-content .login-or-register-img, #login-or-register-page-content .login-register-container {
+    display: inline-block;
+    vertical-align: middle
+}
+
+#login-or-register-page-content .login-or-register-img {
+    margin-right: 90px;
+    margin-top: 80px;
+    margin-bottom: 110px
+}
+
+.auth-google.button-primary {
+    margin-top: 20px
+}
+
+#login-and-register-container #login-container {
+    display: block
+}
+
+#login-and-register-container.show-register #login-container {
+    display: none
+}
+
+#login-container {
+    width: 100%;
+    margin: 0 auto;
+    height: 400px
+}
+
+#login-container > form {
+    display: inline-block;
+    width: 357px
+}
+
+#login-container .splash {
+    float: left;
+    padding-left: 18px;
+    margin-top: 60px;
+    width: 464px;
+    height: 390px;
+    text-align: center
+}
+
+#login-container #login_lhs h1 {
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    margin-top: 22px
+}
+
+#login-container #login_lhs h3 {
+    font-size: 15px;
+    font-weight: normal;
+    color: #666;
+    text-align: center;
+    margin-top: 6px
+}
+
+#login-container #login_lhs .login_lhs_action {
+    margin-top: 20px;
+    text-align: center
+}
+
+#login-container #login_lhs .login_lhs_teams_graphic {
+    margin: 40px 0 0 0
+}
+
+#login-container .title-text {
+    color: #222;
+    font-size: 22px;
+    font-weight: 600
+}
+
+#login-container .alternative-option {
+    float: right;
+    margin-top: 4px;
+    color: #444;
+    font-size: 13px
+}
+
+#login-container #sso-login-description {
+    margin: 20px 0;
+    font-size: 14px
+}
+
+#login-container #sso_login_submit, #login-container #sso_login_cancel {
+    float: right
+}
+
+#login-container #sso_login_cancel {
+    margin-right: 10px
+}
+
+#login-container > form {
+    margin-top: 115px;
+    margin-left: 50px
+}
+
+#login-container #forgot-link {
+    position: relative;
+    top: 15px;
+    float: left
+}
+
+#login-partial {
+    width: 357px
+}
+
+#login-partial #email-field {
+    margin-top: 16px;
+    margin-bottom: 12px
+}
+
+#login-partial #login-footer {
+    margin-top: 20px
+}
+
+#login-partial #login-footer #remember-me {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    float: left
+}
+
+#login-partial #login-footer #remember-me label {
+    cursor: pointer
+}
+
+#login-partial #login-footer #sso_description {
+    float: left
+}
+
+#login-partial #login-footer #login_submit, #login-partial #login-footer .cancel-btn {
+    float: right;
+    margin-top: -6px
+}
+
+#open_in_app_interstitial {
+    text-align: center
+}
+
+#open_in_app_interstitial .instruction_text {
+    font-size: 135%
+}
+
+#open_in_app_interstitial p {
+    margin-bottom: 24px
+}
+
+#open_in_app_interstitial .openinapp-button {
+    margin: 0
+}
+
+.login-form-container .checkbox.checkbox-inline {
+    max-width: 230px
+}
+
+.login-register-container-wrapper {
+    display: inline;
+}
+
+.login-promo-upgrade {
+    background-color: #fafbfc;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 30px 0 15px;
+    padding: 20px;
+    width: 350px
+}
+
+.download-button{
+  margin-right: 20px;
+  float: right;
+  background: none;
+  background-color: none;
+  border: none;
+}
+.download-img:hover {
+  border: 1px solid blue;
+}
+.download-img {
+
+}
+.delete-button{
+  float: right;
+  margin-left:20px;
+  background: none;
+  background-color: none;
+  border: none;
+}
+
+.footer,
+.push {
+  height: 200px;
+  margin-top: 100px;
+  background-color: red;
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+.row {
+  text-align: center;
+  margin-left: 20%;
+  height: 100%;
+}
+
+
+.full {
+    width: 100%;
+}
+.gap {
+	height: 30px;
+	width: 100%;
+	clear: both;
+	display: block;
+}
+.footer {
+	background: white;
+	height: auto;
+	padding-bottom: 20px;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+  padding-top: 0px;
+}
+.footer p {
+	margin: 0;
+}
+.footer img {
+	max-width: 100%;
+}
+.footer h3 {
+	border-bottom: 1px solid #BAC1C8;
+	color: #54697E;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 37px;
+	padding: 0px 0 10px;
+	text-transform: uppercase;
+}
+.footer ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 0px;
+	color: #7F8C8D;
+}
+
+.footer ul li{
+  margin-left: 0px;
+}
+
+.footer ul li a {
+	padding: 0 0 5px 0;
+	display: block;
+
+  margin-left: 0px;
+}
+.footer a {
+	color: #78828D
+}
+.supportLi h4 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: normal;
+	margin-bottom: 0 !important;
+	padding-bottom: 0;
+}
+.newsletter-box input#appendedInputButton {
+	background: #FFFFFF;
+	display: inline-block;
+	float: left;
+	height: 30px;
+	clear: both;
+	width: 100%;
+}
+.newsletter-box .btn {
+	border: medium none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	height: 40px;
+	padding: 0;
+	width: 100%;
+	color: #fff;
+}
+.newsletter-box {
+	overflow: hidden;
+}
+.bg-gray {
+	background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
+	box-shadow: 0 1px 0 #B4B3B3;
+}
+.social li {
+	background: none repeat scroll 0 0 #B5B5B5;
+	border: 2px solid #B5B5B5;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 8px 0 0;
+	padding: 0;
+	text-align: center;
+	width: 36px;
+	transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+}
+.social li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+.social li a {
+	color: #EDEFF1;
+}
+.social li:hover {
+	border: 2px solid #2c3e50;
+	background: #2c3e50;
+}
+.social li a i {
+	font-size: 16px;
+	margin: 0 0 0 5px;
+	color: #EDEFF1 !important;
+}
+.footer-bottom {
+	background: #E3E3E3;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+}
+.payments {
+	font-size: 1.5em;
+}
+
+.box{
+  margin-left: 80px;
+  text-align: center;
+  padding: 30px;
+  text-align: center;
+  margin-right: 20px;
+}
+.row {
+  padding: none;
+  margin-top: 0px;
+}
+
+.Sign-in-button {
+  background: #3366FF;
+  height: 35px;
+  padding: 5px;
+  width: 75px;;
+  color: white;
+}
+
+.Registerbutton {
+  background: #3366FF;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: auto;
+  color: white;
+  float:right;
+}
+
+.btn {
+  background: #2895F1;
+  min-width: 130px;
+}
+
+.form-control {
+  width: 100%;
+  background-color: gray;
+}
+
+.col-2 {
+  margin-top: 20px;
+}
+
+
+
+.activity-tile {
+    width: 80%;
+    height: 40px;
+    font-weight: 500;
+    color: gray;
+    background-color: #f1f1f1;
+    border: 1px solid;
+    border-radius: 3px;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 2px;
+}
